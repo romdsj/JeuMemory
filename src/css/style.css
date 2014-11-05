@@ -1,0 +1,60 @@
+@font-face {
+    font-family: mickey;
+    src: url(../font/mickey-webfont.woff);
+}
+
+body
+{
+	background-image:url('../img/memory.jpg');
+}
+
+p
+{
+	font-family: mickey;
+	width:700px;
+	font-size:50px;
+	margin:auto;
+}
+
+h2
+{
+	text-align:center;
+	width: 600px;
+	font-size: 60px;
+	font-family: mickey;
+	margin:auto;
+}
+
+aside
+{
+	text-align:center;
+	width:690px;
+	height:200px;
+	margin:auto;
+}
+
+article
+{
+	width:115px;
+	height:116px;
+	background-color:black;
+}
+
+header
+{
+	height:100px;
+}
+
+*
+{
+	moz-user-select: none;
+ 	-webkit-user-select: none;
+ 	-ms-user-select: none;
+ 	-o-user-select: none;
+ 	user-select: none;
+}
+
+.float
+{
+	float:right;
+}
